@@ -1,0 +1,2 @@
+omnis.tmLanguage.json       - defines how the syntax highlighting works
+language-configuration.json - defines how the editing experience works

@@ -27,7 +27,7 @@
     "grammars": [
       {
         "language": "omnis",
-        "scopeName": "",
+        "scopeName": "source.omnis",
         "path": "./syntaxes/omnis.tmLanguage.json"
       }
     ]
