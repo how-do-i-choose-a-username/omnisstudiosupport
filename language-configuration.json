@@ -15,7 +15,9 @@
         ["[", "]"],
         ["(", ")"],
         ["\"", "\""],
-        ["'", "'"]
+        ["'", "'"],
+        ["Calculate ", " as "],
+        ["Do ", " Returns "]
     ],
     // symbols that can be used to surround a selection
     "surroundingPairs": [
@@ -24,5 +26,15 @@
         ["(", ")"],
         ["\"", "\""],
         ["'", "'"]
-    ]
+    ],
+    "indentationRules": {
+        "increaseIndentPattern": "If",
+        "decreaseIndentPattern": "End If"
+    },
+    "folding": {
+        "markers": {
+            "start": "If",
+            "end": "End If"
+        }
+    }
 }
