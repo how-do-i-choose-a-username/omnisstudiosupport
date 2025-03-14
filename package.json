@@ -1,0 +1,38 @@
+{
+  "name": "omnisstudiosupport",
+  "displayName": "OmnisStudioSupport",
+  "description": "",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.98.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [
+      {
+        "id": "omnis",
+        "aliases": [
+          "Omnis Studio",
+          "omnis"
+        ],
+        "extensions": [
+          ".omnis",
+          ".omnist"
+        ],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "omnis",
+        "scopeName": "",
+        "path": "./syntaxes/omnis.tmLanguage.json"
+      }
+    ]
+  },
+  "dependencies": {
+    "omnisstudiosupport": "file:"
+  }
+}
